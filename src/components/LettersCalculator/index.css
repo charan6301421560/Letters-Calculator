@@ -1,0 +1,33 @@
+.bg-container {
+    display: flex;
+    background-image: linear-gradient(#1d976c, #93f9b9);
+    background-size: cover;
+    font-family: 'Roboto';
+  }
+  .cal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: center;
+    margin: 10px;
+  }
+  .heading {
+    color: #ffffff;
+    margin: 10px;
+  }
+  .description {
+    color: #ffffff;
+    margin: 10px;
+  }
+  .letters-container {
+    background-color: #ffffff;
+    height: 40px;
+    width: 140px;
+    color: #219a6f;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
